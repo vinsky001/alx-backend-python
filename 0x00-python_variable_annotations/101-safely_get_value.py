@@ -29,4 +29,4 @@ if __name__ == '__main__':
 
     print("Here's what the mappings should look like")
     for k, v in annotations.items():
-        print(("{}: {}".format(k, 
+        print(("{}: {}".format(k, v)))
