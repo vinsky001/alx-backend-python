@@ -13,9 +13,9 @@ def make_multiplier(multiplier: float) -> Callable[[float], float]:
     """
     Returns a callable 'inner'
     """
-    def inner(multiplier: float) -> float:
+    def inner(value: float) -> float:
         """Returns a float multiplied by itself"""
-        return multiplier * multiplier
+        return multiplier * value
     return inner
 
 
